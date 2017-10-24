@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ColistadorHandler.swift"
+            timestampString = "527239783.340443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "observerMessagesForDriver()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Colistador_For_Customer.ColistadorHandler.observerMessagesForDriver () -&gt; ()"
+                  moduleName = "Colistador For Customer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramymain/Documents/ETNA/Prep2/PRO/INNO/Colistador%20For%20Rider/ColistadorHandler.swift"
+                  timestampString = "527183002.555442"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Colistador_For_Customer.ColistadorHandler.(observerMessagesForDriver () -&gt; ()).(closure #1)"
+                  moduleName = "Colistador For Customer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramymain/Documents/ETNA/Prep2/PRO/INNO/Colistador%20For%20Rider/ColistadorHandler.swift"
+                  timestampString = "527183002.574582"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

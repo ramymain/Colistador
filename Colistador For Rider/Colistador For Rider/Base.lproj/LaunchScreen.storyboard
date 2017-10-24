@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="iTz-CW-XKg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-v8-3cq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mvc-pH-4Zf">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colista" translatesAutoresizingMaskIntoConstraints="NO" id="mfn-7L-dFx">
+                                <rect key="frame" x="44" y="162" width="326" height="296"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iTz-CW-XKg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4Ry-9h-K5g"/>
+                            <constraint firstItem="yo8-v8-3cq" firstAttribute="top" secondItem="iTz-CW-XKg" secondAttribute="top" id="Fbi-0h-cgD"/>
+                            <constraint firstItem="mfn-7L-dFx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="24" id="QQ7-28-NA0"/>
+                            <constraint firstItem="mfn-7L-dFx" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="142" id="Sc3-eP-aWh"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="mfn-7L-dFx" secondAttribute="bottom" constant="278" id="TwR-mk-j0E"/>
+                            <constraint firstItem="yo8-v8-3cq" firstAttribute="trailing" secondItem="iTz-CW-XKg" secondAttribute="trailing" id="U0l-jf-HrC"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="iTz-CW-XKg" secondAttribute="bottom" id="fix-vJ-mjQ"/>
+                            <constraint firstAttribute="trailing" secondItem="iTz-CW-XKg" secondAttribute="trailing" id="kP2-cO-pnH"/>
+                            <constraint firstItem="iTz-CW-XKg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="oqo-yZ-qpG"/>
+                            <constraint firstItem="yo8-v8-3cq" firstAttribute="leading" secondItem="iTz-CW-XKg" secondAttribute="leading" id="thS-6z-kmd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mfn-7L-dFx" secondAttribute="trailing" constant="24" id="wch-oP-fsb"/>
+                            <constraint firstItem="yo8-v8-3cq" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="xHV-Ce-vFy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="738" height="1502"/>
+        <image name="colista" width="935" height="651"/>
+    </resources>
+</document>

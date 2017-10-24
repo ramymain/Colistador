@@ -1,0 +1,6 @@
+framework module Pods_Colistador_For_DriverTests {
+  umbrella header "Pods-Colistador For DriverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

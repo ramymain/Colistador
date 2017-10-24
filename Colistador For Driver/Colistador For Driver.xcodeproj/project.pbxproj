@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318885BF322B36DDC95EB710 /* Pods_Colistador_For_DriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFF9AE5BA4632580B503A23 /* Pods_Colistador_For_DriverTests.framework */; };
+		879C07671F010EAD005A0B8E /* ColistadorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C07661F010EAD005A0B8E /* ColistadorHandler.swift */; };
+		87CDB8821EDEA8E100224B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8811EDEA8E100224B69 /* AppDelegate.swift */; };
+		87CDB8871EDEA8E100224B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CDB8851EDEA8E100224B69 /* Main.storyboard */; };
+		87CDB8891EDEA8E100224B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CDB8881EDEA8E100224B69 /* Assets.xcassets */; };
+		87CDB88C1EDEA8E100224B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CDB88A1EDEA8E100224B69 /* LaunchScreen.storyboard */; };
+		87CDB8971EDEA8E100224B69 /* Colistador_For_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8961EDEA8E100224B69 /* Colistador_For_DriverTests.swift */; };
+		87CDB8A21EDEA8E100224B69 /* Colistador_For_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8A11EDEA8E100224B69 /* Colistador_For_DriverUITests.swift */; };
+		87CDB8B31EDEAE9900224B69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8B21EDEAE9900224B69 /* User.swift */; };
+		87CDB8B51EDEB94E00224B69 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8B41EDEB94E00224B69 /* SignInVC.swift */; };
+		87CDB8B71EDED54900224B69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87CDB8B61EDED54900224B69 /* GoogleService-Info.plist */; };
+		87CDB8BA1EDEE4A300224B69 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8B91EDEE4A300224B69 /* AuthProvider.swift */; };
+		87CDB8BC1EDF0B3700224B69 /* DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8BB1EDF0B3700224B69 /* DriverVC.swift */; };
+		87CDB8BF1EDF1D0D00224B69 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8BE1EDF1D0D00224B69 /* DBProvider.swift */; };
+		87CDB8C11EDF1DCD00224B69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDB8C01EDF1DCD00224B69 /* Constants.swift */; };
+		B77BA7443D50F0F458B9917D /* Pods_Colistador_For_DriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1013362AE62010F77CE316EA /* Pods_Colistador_For_DriverUITests.framework */; };
+		F890CF122F697AD2108BD6D8 /* Pods_Colistador_For_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF32E9BC3C12FFDE663B9E5 /* Pods_Colistador_For_Driver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CDB8931EDEA8E100224B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CDB8761EDEA8E100224B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CDB87D1EDEA8E100224B69;
+			remoteInfo = "Colistador For Driver";
+		};
+		87CDB89E1EDEA8E100224B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CDB8761EDEA8E100224B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CDB87D1EDEA8E100224B69;
+			remoteInfo = "Colistador For Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0030B1D5A6D13622AC5F8792 /* Pods-Colistador For DriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For DriverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For DriverUITests/Pods-Colistador For DriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1013362AE62010F77CE316EA /* Pods_Colistador_For_DriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colistador_For_DriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6C662E70AECFE8BB81FF92 /* Pods-Colistador For DriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For DriverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For DriverUITests/Pods-Colistador For DriverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38C16E02437FB689376AE9B7 /* Pods-Colistador For DriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For DriverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For DriverTests/Pods-Colistador For DriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF32E9BC3C12FFDE663B9E5 /* Pods_Colistador_For_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colistador_For_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		879C07661F010EAD005A0B8E /* ColistadorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColistadorHandler.swift; sourceTree = "<group>"; };
+		87CDB87E1EDEA8E100224B69 /* Colistador For Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colistador For Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CDB8811EDEA8E100224B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87CDB8861EDEA8E100224B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87CDB8881EDEA8E100224B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87CDB88B1EDEA8E100224B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87CDB88D1EDEA8E100224B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CDB8921EDEA8E100224B69 /* Colistador For DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colistador For DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CDB8961EDEA8E100224B69 /* Colistador_For_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colistador_For_DriverTests.swift; sourceTree = "<group>"; };
+		87CDB8981EDEA8E100224B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CDB89D1EDEA8E100224B69 /* Colistador For DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colistador For DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CDB8A11EDEA8E100224B69 /* Colistador_For_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colistador_For_DriverUITests.swift; sourceTree = "<group>"; };
+		87CDB8A31EDEA8E100224B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CDB8B21EDEAE9900224B69 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		87CDB8B41EDEB94E00224B69 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		87CDB8B61EDED54900224B69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87CDB8B91EDEE4A300224B69 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		87CDB8BB1EDF0B3700224B69 /* DriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverVC.swift; sourceTree = "<group>"; };
+		87CDB8BE1EDF1D0D00224B69 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		87CDB8C01EDF1DCD00224B69 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C379254927BDAE7D78AB62C3 /* Pods-Colistador For DriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For DriverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For DriverTests/Pods-Colistador For DriverTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5FF4FE1274890E8A61DB0FA /* Pods-Colistador For Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For Driver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For Driver/Pods-Colistador For Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F751E64CCE6030118DD833 /* Pods-Colistador For Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For Driver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For Driver/Pods-Colistador For Driver.release.xcconfig"; sourceTree = "<group>"; };
+		EEFF9AE5BA4632580B503A23 /* Pods_Colistador_For_DriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colistador_For_DriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CDB87B1EDEA8E100224B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F890CF122F697AD2108BD6D8 /* Pods_Colistador_For_Driver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CDB88F1EDEA8E100224B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318885BF322B36DDC95EB710 /* Pods_Colistador_For_DriverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CDB89A1EDEA8E100224B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77BA7443D50F0F458B9917D /* Pods_Colistador_For_DriverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D65768096563E8AB26F9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF32E9BC3C12FFDE663B9E5 /* Pods_Colistador_For_Driver.framework */,
+				EEFF9AE5BA4632580B503A23 /* Pods_Colistador_For_DriverTests.framework */,
+				1013362AE62010F77CE316EA /* Pods_Colistador_For_DriverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87CDB8751EDEA8E100224B69 = {
+			isa = PBXGroup;
+			children = (
+				87CDB8801EDEA8E100224B69 /* Colistador For Driver */,
+				87CDB8951EDEA8E100224B69 /* Colistador For DriverTests */,
+				87CDB8A01EDEA8E100224B69 /* Colistador For DriverUITests */,
+				87CDB87F1EDEA8E100224B69 /* Products */,
+				D26496F84A06D336AAC9E834 /* Pods */,
+				37D65768096563E8AB26F9FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87CDB87F1EDEA8E100224B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB87E1EDEA8E100224B69 /* Colistador For Driver.app */,
+				87CDB8921EDEA8E100224B69 /* Colistador For DriverTests.xctest */,
+				87CDB89D1EDEA8E100224B69 /* Colistador For DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CDB8801EDEA8E100224B69 /* Colistador For Driver */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB8B81EDEE48A00224B69 /* Plugins */,
+				87CDB8B11EDEAE7E00224B69 /* Controller */,
+				87CDB8B01EDEAE7700224B69 /* View */,
+				87CDB8AF1EDEAE6C00224B69 /* Model */,
+				87CDB8B61EDED54900224B69 /* GoogleService-Info.plist */,
+				87CDB8811EDEA8E100224B69 /* AppDelegate.swift */,
+				87CDB8851EDEA8E100224B69 /* Main.storyboard */,
+				87CDB8881EDEA8E100224B69 /* Assets.xcassets */,
+				87CDB88A1EDEA8E100224B69 /* LaunchScreen.storyboard */,
+				87CDB88D1EDEA8E100224B69 /* Info.plist */,
+			);
+			path = "Colistador For Driver";
+			sourceTree = "<group>";
+		};
+		87CDB8951EDEA8E100224B69 /* Colistador For DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB8961EDEA8E100224B69 /* Colistador_For_DriverTests.swift */,
+				87CDB8981EDEA8E100224B69 /* Info.plist */,
+			);
+			path = "Colistador For DriverTests";
+			sourceTree = "<group>";
+		};
+		87CDB8A01EDEA8E100224B69 /* Colistador For DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB8A11EDEA8E100224B69 /* Colistador_For_DriverUITests.swift */,
+				87CDB8A31EDEA8E100224B69 /* Info.plist */,
+			);
+			path = "Colistador For DriverUITests";
+			sourceTree = "<group>";
+		};
+		87CDB8AF1EDEAE6C00224B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB8B21EDEAE9900224B69 /* User.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		87CDB8B01EDEAE7700224B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		87CDB8B11EDEAE7E00224B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB8B41EDEB94E00224B69 /* SignInVC.swift */,
+				87CDB8BB1EDF0B3700224B69 /* DriverVC.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		87CDB8B81EDEE48A00224B69 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				87CDB8B91EDEE4A300224B69 /* AuthProvider.swift */,
+				87CDB8BE1EDF1D0D00224B69 /* DBProvider.swift */,
+				87CDB8C01EDF1DCD00224B69 /* Constants.swift */,
+				879C07661F010EAD005A0B8E /* ColistadorHandler.swift */,
+			);
+			name = Plugins;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D26496F84A06D336AAC9E834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FF4FE1274890E8A61DB0FA /* Pods-Colistador For Driver.debug.xcconfig */,
+				E8F751E64CCE6030118DD833 /* Pods-Colistador For Driver.release.xcconfig */,
+				38C16E02437FB689376AE9B7 /* Pods-Colistador For DriverTests.debug.xcconfig */,
+				C379254927BDAE7D78AB62C3 /* Pods-Colistador For DriverTests.release.xcconfig */,
+				0030B1D5A6D13622AC5F8792 /* Pods-Colistador For DriverUITests.debug.xcconfig */,
+				1E6C662E70AECFE8BB81FF92 /* Pods-Colistador For DriverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CDB87D1EDEA8E100224B69 /* Colistador For Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CDB8A61EDEA8E100224B69 /* Build configuration list for PBXNativeTarget "Colistador For Driver" */;
+			buildPhases = (
+				B931D70DB642A8EE76983F03 /* [CP] Check Pods Manifest.lock */,
+				87CDB87A1EDEA8E100224B69 /* Sources */,
+				87CDB87B1EDEA8E100224B69 /* Frameworks */,
+				87CDB87C1EDEA8E100224B69 /* Resources */,
+				7CAAD8FCCD1D200D7945BFCC /* [CP] Embed Pods Frameworks */,
+				A74AF923696B3C347743F6F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colistador For Driver";
+			productName = "Colistador For Driver";
+			productReference = 87CDB87E1EDEA8E100224B69 /* Colistador For Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CDB8911EDEA8E100224B69 /* Colistador For DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CDB8A91EDEA8E100224B69 /* Build configuration list for PBXNativeTarget "Colistador For DriverTests" */;
+			buildPhases = (
+				45D6FBC68F72DEC2BAFE1778 /* [CP] Check Pods Manifest.lock */,
+				87CDB88E1EDEA8E100224B69 /* Sources */,
+				87CDB88F1EDEA8E100224B69 /* Frameworks */,
+				87CDB8901EDEA8E100224B69 /* Resources */,
+				29B4D1DEF97B402C60DB185B /* [CP] Embed Pods Frameworks */,
+				E4764858D775A5D377834CD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CDB8941EDEA8E100224B69 /* PBXTargetDependency */,
+			);
+			name = "Colistador For DriverTests";
+			productName = "Colistador For DriverTests";
+			productReference = 87CDB8921EDEA8E100224B69 /* Colistador For DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87CDB89C1EDEA8E100224B69 /* Colistador For DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CDB8AC1EDEA8E100224B69 /* Build configuration list for PBXNativeTarget "Colistador For DriverUITests" */;
+			buildPhases = (
+				A05CBBB9A0D87EBC2F92FF11 /* [CP] Check Pods Manifest.lock */,
+				87CDB8991EDEA8E100224B69 /* Sources */,
+				87CDB89A1EDEA8E100224B69 /* Frameworks */,
+				87CDB89B1EDEA8E100224B69 /* Resources */,
+				E158741F8663C6BBB619F663 /* [CP] Embed Pods Frameworks */,
+				EF9658E2EA3EF4D5A5D48B2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CDB89F1EDEA8E100224B69 /* PBXTargetDependency */,
+			);
+			name = "Colistador For DriverUITests";
+			productName = "Colistador For DriverUITests";
+			productReference = 87CDB89D1EDEA8E100224B69 /* Colistador For DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CDB8761EDEA8E100224B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ramy Ferjani";
+				TargetAttributes = {
+					87CDB87D1EDEA8E100224B69 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EX85DSJN7Y;
+						ProvisioningStyle = Automatic;
+					};
+					87CDB8911EDEA8E100224B69 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EX85DSJN7Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87CDB87D1EDEA8E100224B69;
+					};
+					87CDB89C1EDEA8E100224B69 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87CDB87D1EDEA8E100224B69;
+					};
+				};
+			};
+			buildConfigurationList = 87CDB8791EDEA8E100224B69 /* Build configuration list for PBXProject "Colistador For Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87CDB8751EDEA8E100224B69;
+			productRefGroup = 87CDB87F1EDEA8E100224B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CDB87D1EDEA8E100224B69 /* Colistador For Driver */,
+				87CDB8911EDEA8E100224B69 /* Colistador For DriverTests */,
+				87CDB89C1EDEA8E100224B69 /* Colistador For DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CDB87C1EDEA8E100224B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CDB88C1EDEA8E100224B69 /* LaunchScreen.storyboard in Resources */,
+				87CDB8B71EDED54900224B69 /* GoogleService-Info.plist in Resources */,
+				87CDB8891EDEA8E100224B69 /* Assets.xcassets in Resources */,
+				87CDB8871EDEA8E100224B69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CDB8901EDEA8E100224B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CDB89B1EDEA8E100224B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B4D1DEF97B402C60DB185B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For DriverTests/Pods-Colistador For DriverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D6FBC68F72DEC2BAFE1778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CAAD8FCCD1D200D7945BFCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For Driver/Pods-Colistador For Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05CBBB9A0D87EBC2F92FF11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A74AF923696B3C347743F6F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For Driver/Pods-Colistador For Driver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B931D70DB642A8EE76983F03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E158741F8663C6BBB619F663 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For DriverUITests/Pods-Colistador For DriverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4764858D775A5D377834CD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For DriverTests/Pods-Colistador For DriverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9658E2EA3EF4D5A5D48B2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For DriverUITests/Pods-Colistador For DriverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CDB87A1EDEA8E100224B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CDB8BC1EDF0B3700224B69 /* DriverVC.swift in Sources */,
+				87CDB8821EDEA8E100224B69 /* AppDelegate.swift in Sources */,
+				87CDB8B51EDEB94E00224B69 /* SignInVC.swift in Sources */,
+				87CDB8BA1EDEE4A300224B69 /* AuthProvider.swift in Sources */,
+				879C07671F010EAD005A0B8E /* ColistadorHandler.swift in Sources */,
+				87CDB8C11EDF1DCD00224B69 /* Constants.swift in Sources */,
+				87CDB8BF1EDF1D0D00224B69 /* DBProvider.swift in Sources */,
+				87CDB8B31EDEAE9900224B69 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CDB88E1EDEA8E100224B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CDB8971EDEA8E100224B69 /* Colistador_For_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CDB8991EDEA8E100224B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CDB8A21EDEA8E100224B69 /* Colistador_For_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CDB8941EDEA8E100224B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CDB87D1EDEA8E100224B69 /* Colistador For Driver */;
+			targetProxy = 87CDB8931EDEA8E100224B69 /* PBXContainerItemProxy */;
+		};
+		87CDB89F1EDEA8E100224B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CDB87D1EDEA8E100224B69 /* Colistador For Driver */;
+			targetProxy = 87CDB89E1EDEA8E100224B69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87CDB8851EDEA8E100224B69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CDB8861EDEA8E100224B69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87CDB88A1EDEA8E100224B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CDB88B1EDEA8E100224B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87CDB8A41EDEA8E100224B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87CDB8A51EDEA8E100224B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CDB8A71EDEA8E100224B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FF4FE1274890E8A61DB0FA /* Pods-Colistador For Driver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EX85DSJN7Y;
+				INFOPLIST_FILE = "Colistador For Driver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colistador.Colistador-For-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87CDB8A81EDEA8E100224B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F751E64CCE6030118DD833 /* Pods-Colistador For Driver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EX85DSJN7Y;
+				INFOPLIST_FILE = "Colistador For Driver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colistador.Colistador-For-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87CDB8AA1EDEA8E100224B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C16E02437FB689376AE9B7 /* Pods-Colistador For DriverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EX85DSJN7Y;
+				INFOPLIST_FILE = "Colistador For DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colistador.Colistador-For-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colistador For Driver.app/Colistador For Driver";
+			};
+			name = Debug;
+		};
+		87CDB8AB1EDEA8E100224B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C379254927BDAE7D78AB62C3 /* Pods-Colistador For DriverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EX85DSJN7Y;
+				INFOPLIST_FILE = "Colistador For DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colistador.Colistador-For-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colistador For Driver.app/Colistador For Driver";
+			};
+			name = Release;
+		};
+		87CDB8AD1EDEA8E100224B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0030B1D5A6D13622AC5F8792 /* Pods-Colistador For DriverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Colistador For DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colistador.Colistador-For-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Colistador For Driver";
+			};
+			name = Debug;
+		};
+		87CDB8AE1EDEA8E100224B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6C662E70AECFE8BB81FF92 /* Pods-Colistador For DriverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Colistador For DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colistador.Colistador-For-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Colistador For Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CDB8791EDEA8E100224B69 /* Build configuration list for PBXProject "Colistador For Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CDB8A41EDEA8E100224B69 /* Debug */,
+				87CDB8A51EDEA8E100224B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CDB8A61EDEA8E100224B69 /* Build configuration list for PBXNativeTarget "Colistador For Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CDB8A71EDEA8E100224B69 /* Debug */,
+				87CDB8A81EDEA8E100224B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CDB8A91EDEA8E100224B69 /* Build configuration list for PBXNativeTarget "Colistador For DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CDB8AA1EDEA8E100224B69 /* Debug */,
+				87CDB8AB1EDEA8E100224B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CDB8AC1EDEA8E100224B69 /* Build configuration list for PBXNativeTarget "Colistador For DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CDB8AD1EDEA8E100224B69 /* Debug */,
+				87CDB8AE1EDEA8E100224B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CDB8761EDEA8E100224B69 /* Project object */;
+}

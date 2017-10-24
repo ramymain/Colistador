@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F6B32C7C334D110F02C9374 /* Pods_Colistador_For_Customer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2DE3C8AA282C0FB4169A74 /* Pods_Colistador_For_Customer.framework */; };
+		8765B3121F66BFA30028EEB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765B3111F66BFA30028EEB6 /* Constants.swift */; };
+		8765B3141F66BFBF0028EEB6 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765B3131F66BFBF0028EEB6 /* DBProvider.swift */; };
+		8765B3161F66BFDC0028EEB6 /* ColistadorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765B3151F66BFDC0028EEB6 /* ColistadorHandler.swift */; };
+		8769D8261F6682840087316F /* TrackingNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8769D8251F6682840087316F /* TrackingNumberVC.swift */; };
+		8769D8281F6685420087316F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8769D8271F6685420087316F /* GoogleService-Info.plist */; };
+		8769D82A1F66AE4E0087316F /* TrackingMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8769D8291F66AE4E0087316F /* TrackingMapVC.swift */; };
+		87B3CAFC1F24A838009AC1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3CAFB1F24A838009AC1EA /* AppDelegate.swift */; };
+		87B3CB011F24A838009AC1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B3CAFF1F24A838009AC1EA /* Main.storyboard */; };
+		87B3CB031F24A838009AC1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B3CB021F24A838009AC1EA /* Assets.xcassets */; };
+		87B3CB061F24A838009AC1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B3CB041F24A838009AC1EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E87759F73E04962391413F3 /* Pods-Colistador For Customer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For Customer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For Customer/Pods-Colistador For Customer.release.xcconfig"; sourceTree = "<group>"; };
+		8765B3111F66BFA30028EEB6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8765B3131F66BFBF0028EEB6 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		8765B3151F66BFDC0028EEB6 /* ColistadorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColistadorHandler.swift; sourceTree = "<group>"; };
+		8769D8251F6682840087316F /* TrackingNumberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingNumberVC.swift; sourceTree = "<group>"; };
+		8769D8271F6685420087316F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8769D8291F66AE4E0087316F /* TrackingMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingMapVC.swift; sourceTree = "<group>"; };
+		87B3CAF81F24A838009AC1EA /* Colistador For Customer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colistador For Customer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B3CAFB1F24A838009AC1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87B3CB001F24A838009AC1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87B3CB021F24A838009AC1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87B3CB051F24A838009AC1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87B3CB071F24A838009AC1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2DE3C8AA282C0FB4169A74 /* Pods_Colistador_For_Customer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colistador_For_Customer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CFFA91C7DAA90DCB9E0458 /* Pods-Colistador For Customer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colistador For Customer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colistador For Customer/Pods-Colistador For Customer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B3CAF51F24A838009AC1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6B32C7C334D110F02C9374 /* Pods_Colistador_For_Customer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1325549B0B758AE4A2E7B17F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFFA91C7DAA90DCB9E0458 /* Pods-Colistador For Customer.debug.xcconfig */,
+				4E87759F73E04962391413F3 /* Pods-Colistador For Customer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		721BA234A3FF0F6A91C52C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F2DE3C8AA282C0FB4169A74 /* Pods_Colistador_For_Customer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8765B3101F66BF280028EEB6 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8765B3111F66BFA30028EEB6 /* Constants.swift */,
+				8765B3131F66BFBF0028EEB6 /* DBProvider.swift */,
+				8765B3151F66BFDC0028EEB6 /* ColistadorHandler.swift */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		8769D8211F667E340087316F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8769D8251F6682840087316F /* TrackingNumberVC.swift */,
+				8769D8291F66AE4E0087316F /* TrackingMapVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8769D8221F667E610087316F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		87B3CAEF1F24A838009AC1EA = {
+			isa = PBXGroup;
+			children = (
+				8765B3101F66BF280028EEB6 /* Plugins */,
+				8769D8221F667E610087316F /* Model */,
+				8769D8211F667E340087316F /* Controller */,
+				87B3CAFA1F24A838009AC1EA /* Colistador For Rider */,
+				87B3CAF91F24A838009AC1EA /* Products */,
+				1325549B0B758AE4A2E7B17F /* Pods */,
+				721BA234A3FF0F6A91C52C55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87B3CAF91F24A838009AC1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B3CAF81F24A838009AC1EA /* Colistador For Customer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B3CAFA1F24A838009AC1EA /* Colistador For Rider */ = {
+			isa = PBXGroup;
+			children = (
+				87B3CAFB1F24A838009AC1EA /* AppDelegate.swift */,
+				87B3CAFF1F24A838009AC1EA /* Main.storyboard */,
+				87B3CB021F24A838009AC1EA /* Assets.xcassets */,
+				87B3CB041F24A838009AC1EA /* LaunchScreen.storyboard */,
+				87B3CB071F24A838009AC1EA /* Info.plist */,
+				8769D8271F6685420087316F /* GoogleService-Info.plist */,
+			);
+			path = "Colistador For Rider";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B3CAF71F24A838009AC1EA /* Colistador For Customer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B3CB0A1F24A838009AC1EA /* Build configuration list for PBXNativeTarget "Colistador For Customer" */;
+			buildPhases = (
+				19A0798DAE074368C7FA9D56 /* [CP] Check Pods Manifest.lock */,
+				87B3CAF41F24A838009AC1EA /* Sources */,
+				87B3CAF51F24A838009AC1EA /* Frameworks */,
+				87B3CAF61F24A838009AC1EA /* Resources */,
+				FE63D8C5114124ABCDEBB718 /* [CP] Embed Pods Frameworks */,
+				C580712370144F1FAA261D6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colistador For Customer";
+			productName = "Colistador For Rider";
+			productReference = 87B3CAF81F24A838009AC1EA /* Colistador For Customer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B3CAF01F24A838009AC1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ramy Ferjani";
+				TargetAttributes = {
+					87B3CAF71F24A838009AC1EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EX85DSJN7Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87B3CAF31F24A838009AC1EA /* Build configuration list for PBXProject "Colistador For Customer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87B3CAEF1F24A838009AC1EA;
+			productRefGroup = 87B3CAF91F24A838009AC1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B3CAF71F24A838009AC1EA /* Colistador For Customer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B3CAF61F24A838009AC1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B3CB061F24A838009AC1EA /* LaunchScreen.storyboard in Resources */,
+				8769D8281F6685420087316F /* GoogleService-Info.plist in Resources */,
+				87B3CB031F24A838009AC1EA /* Assets.xcassets in Resources */,
+				87B3CB011F24A838009AC1EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A0798DAE074368C7FA9D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C580712370144F1FAA261D6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For Customer/Pods-Colistador For Customer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE63D8C5114124ABCDEBB718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colistador For Customer/Pods-Colistador For Customer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B3CAF41F24A838009AC1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769D82A1F66AE4E0087316F /* TrackingMapVC.swift in Sources */,
+				8769D8261F6682840087316F /* TrackingNumberVC.swift in Sources */,
+				8765B3161F66BFDC0028EEB6 /* ColistadorHandler.swift in Sources */,
+				8765B3141F66BFBF0028EEB6 /* DBProvider.swift in Sources */,
+				87B3CAFC1F24A838009AC1EA /* AppDelegate.swift in Sources */,
+				8765B3121F66BFA30028EEB6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87B3CAFF1F24A838009AC1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B3CB001F24A838009AC1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87B3CB041F24A838009AC1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B3CB051F24A838009AC1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87B3CB081F24A838009AC1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87B3CB091F24A838009AC1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B3CB0B1F24A838009AC1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CFFA91C7DAA90DCB9E0458 /* Pods-Colistador For Customer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EX85DSJN7Y;
+				INFOPLIST_FILE = "Colistador For Rider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ramymain.Colistador-For-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87B3CB0C1F24A838009AC1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E87759F73E04962391413F3 /* Pods-Colistador For Customer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EX85DSJN7Y;
+				INFOPLIST_FILE = "Colistador For Rider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ramymain.Colistador-For-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B3CAF31F24A838009AC1EA /* Build configuration list for PBXProject "Colistador For Customer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B3CB081F24A838009AC1EA /* Debug */,
+				87B3CB091F24A838009AC1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B3CB0A1F24A838009AC1EA /* Build configuration list for PBXNativeTarget "Colistador For Customer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B3CB0B1F24A838009AC1EA /* Debug */,
+				87B3CB0C1F24A838009AC1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87B3CAF01F24A838009AC1EA /* Project object */;
+}
